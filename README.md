@@ -3,4 +3,14 @@
 
 ## 1일차
 - C# 기본
-	- .NET Framework
+	- .NET Framework / .NET 5.0 이후
+	- Visual Studi상 C# 구성
+	- 기본 문법
+	
+## 2일차
+- C# 기본
+	- 기본 문법
+	
+- Win App
+	- Winform vs WPF 개요
+	- Winforms 기초
