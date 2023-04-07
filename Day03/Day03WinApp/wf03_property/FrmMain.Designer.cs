@@ -240,10 +240,11 @@
             this.groupBox3.Controls.Add(this.BtnAddRoot);
             this.groupBox3.Controls.Add(this.LsvDummy);
             this.groupBox3.Controls.Add(this.TrvDummy);
-            this.groupBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.groupBox3.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.groupBox3.Location = new System.Drawing.Point(11, 443);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(383, 186);
+            this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.groupBox3.Size = new System.Drawing.Size(383, 193);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "트리뷰 / 리스트뷰";
@@ -298,8 +299,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(408, 640);
+            this.ClientSize = new System.Drawing.Size(410, 640);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -311,6 +313,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmMain";
             this.Text = "Form1";
+            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.GbxMain.ResumeLayout(false);
             this.GbxMain.PerformLayout();
