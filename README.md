@@ -24,7 +24,7 @@
 	- 리스트 뷰, 데이터 그리드 추가 학습
 	
 3일차 윈폼 학습 결과
-<imgsrc="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms.PNG?raw=true" width="700">
+<img src="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms.PNG?raw=true" width="700">
 
 ## 4일차
 - C# 기본
@@ -40,4 +40,4 @@
 	- Window 탐색기 만들기 중
 
 5일차 윈도우 참색기 만들기
-<imgsrc="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms02.PNG?raw=true" width="700">
+<img src="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms02.PNG?raw=true" width="700">
