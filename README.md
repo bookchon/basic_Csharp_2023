@@ -34,6 +34,7 @@
 - C# 기본
 	- 인터페이스, 추상클래스
 	- 프로퍼티
+	- 배열, 컬렉션
 	
 - Win App
 	- WinForms 디자인 오류시 해결방법
@@ -41,3 +42,21 @@
 
 5일차 윈도우 참색기 만들기
 <img src="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms02.PNG?raw=true" width="700">
+
+## 6일차
+- C# 기본
+	- 컬렉션
+	- 일반화(Generic) 프로그래밍
+	- 예외 처리
+	- 대리자, 이벤트
+	
+- Win App
+	- 탐색기 마무리
+		- 추가 개발 리스트
+		- 컨텍스트 메뉴(마우스 오른쪽 메뉴)
+		- 보호 된 운영 체제 폴더 숨기기
+		- 리스트뷰 폴더 더블 클릭 시 하위폴더 이동
+	- DB 핸들링
+	- BookRentalShop DB 사용 WinForms App 개발
+	- 실습 예제
+	
