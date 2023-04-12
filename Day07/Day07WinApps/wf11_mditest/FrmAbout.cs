@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace wf11_mditest
 {
-    partial class AboutBox1 : Form
+    partial class FrmAbout : Form
     {
-        public AboutBox1()
+        public FrmAbout()
         {
             InitializeComponent();
             this.Text = String.Format("{0} 정보", AssemblyTitle);
