@@ -60,3 +60,24 @@
 	- BookRentalShop DB 사용 WinForms App 개발
 	- 실습 예제
 	
+## 7일차
+- C# 기본
+	- 대리자, 이벤츠
+	- 람다식
+	- 애트리뷰트
+	- 더 공부해야 할 내용 : LINQ, Replaction, dynamic, Attribute
+	
+- Win App
+	- DB 핸들링
+	- SDI VS MDI
+	
+## 8일차
+- C# 기본
+	- 파일 핸들링
+	- 스레드 / 태스크
+	- 가비지 컬렉션
+	
+- Win App
+	- BookRentalShop DB 사용 WimForms 앱 개발
+	- 실습 예제
+	
