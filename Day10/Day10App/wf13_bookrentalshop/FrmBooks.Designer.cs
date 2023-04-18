@@ -272,19 +272,21 @@
             // 
             this.TxtbookIdx.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtbookIdx.BackColor = System.Drawing.Color.Gainsboro;
             this.TxtbookIdx.Location = new System.Drawing.Point(72, 36);
             this.TxtbookIdx.Name = "TxtbookIdx";
+            this.TxtbookIdx.ReadOnly = true;
             this.TxtbookIdx.Size = new System.Drawing.Size(165, 21);
             this.TxtbookIdx.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 39);
+            this.label1.Location = new System.Drawing.Point(35, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 14);
+            this.label1.Size = new System.Drawing.Size(29, 14);
             this.label1.TabIndex = 0;
-            this.label1.Text = "책번호";
+            this.label1.Text = "번호";
             // 
             // FrmBooks
             // 

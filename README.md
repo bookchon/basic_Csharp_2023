@@ -74,10 +74,23 @@
 ## 8일차
 - C# 기본
 	- 파일 핸들링
-	- 스레드 / 태스크
-	- 가비지 컬렉션
+	- 윈폼 메모장(파일 핸들링)
 	
 - Win App
 	- BookRentalShop DB 사용 WimForms 앱 개발
-	- 실습 예제
+		- WinForms MDI
+		- MySQL.Data Lib DB 연동
+		
+<img src="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms03.PNG?raw=true" width="700">
 	
+## 9일차
+- C# 기본
+	- 스레드 / 태스크
+	
+- Win App
+	- BookRentalShop DB 사용 WimForms 앱 개발
+	- 코딩테스트
+	
+## 10일차
+- 책 대여점 프로그램
+<img src="https://github.com/bookchon/basic_Csharp_2023/blob/main/images/wimforms04.PNG?raw=true" width="700">
