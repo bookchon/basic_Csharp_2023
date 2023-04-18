@@ -156,7 +156,7 @@ namespace wf13_bookrentalshop
                                        FROM bookstbl AS b
                                       INNER JOIN divtbl AS d
 	                                     ON b.Division = d.Division
-";
+                                      OREDR BY b.bookIdx ASC";  // 정렬 추가
                     MySqlDataAdapter adapter = new MySqlDataAdapter(selQuery, conn);
                     DataSet ds = new DataSet();
                     adapter.Fill(ds, "bookstbl"); // bookstbl로 DataSet 접근가능
@@ -172,7 +172,10 @@ namespace wf13_bookrentalshop
                     DgvResult.Columns[6].HeaderText = "ISBN";
                     DgvResult.Columns[7].HeaderText = "책가격";
 
-                    DgvResult.Columns[0].Width = 50;
+                    DgvResult.Columns[0].Width = 55;
+                    DgvResult.Columns[0].Visible = false;  // B001 코드영역 보일 필요 없음
+                    DgvResult.Columns[5].Width = 78;
+                    DgvResult.Columns[7].Width = 80;
 
                 }
             }
